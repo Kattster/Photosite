@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap');
+
+html {
+    background-image: url(Images/starTrek.jpg);
+    background-position: auto;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    /* font-weight: 700; */
+    color: snow;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    /* VW sets the font/text size based on the width of the viewport (AKA Browser window) */
+    /* font-size: 2vw; */
+    /* font-size: 25px; */
+
+    text-align: center;
+    border-bottom: 5px solid #ccc;
+    padding-bottom: 10px;
+  /* Width of two images */
+  /* 22.5 * 2 = 45 */
+  /* Width between two images */
+  /* 1.25 * 2 = 2.5 */
+  /* Width of paragraph element (AKA Bottom border) */
+  /* 45 + 2.5 = 47.5 */
+  width: 47.5%;
+
+  /* "margin: auto" centers the paragraph element horizontally inside of the body element */
+  margin: auto;
+  
+}
+p {
+    font-family: 'Syne Tactile', cursive;
+    border-bottom: solid 5px #ccc;
+    color: antiquewhite;
+    text-align: center;
+}
+
+img {
+    width: 22.5%;
+    margin: 1.25%;
+
+    /* The float CSS property places an element on the left or right side of its container/parent, allowing text and inline elements to wrap around it. The element is removed the normal document flow. Also, removes the "mystery space" between image elements (NOTE: This "mystery space" is the actual spaces between img elements in an html file). */
+    float: left;
+}
